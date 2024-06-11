@@ -68,12 +68,18 @@ img {
 /* Main content  */
 .info-wrap{
   height: 152px;
-  padding-left: 40px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 40px 32px 40px;
+  margin-bottom: 24px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
+  transition: border-radius 0.4s ease;
+  box-shadow: 2px 2px 10px #888888;
+}
+.info-wrap:hover{
+  border: 5px solid #FFFFFF;
+  border-left: 5px solid #5CA5A5;
 }
 /* Account img */
 .info-wrap-img{
@@ -83,16 +89,34 @@ img {
 }
 /* Account info */
 .account-info-div {
-  width: 266px;
+  width: 280px;
+  margin-right: auto;
 }
 .account-info-name {
   padding: 0;
   margin-bottom: 8px;
   margin-top: 0;
+  margin-right: 16px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   color: #5CA5A5;
+}
+.new{
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #FFFFFF;
+  background-color: #5CA5A5;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  border-radius: 20px;
+}
+.featured{
+  margin-left: 8px;
+  background-color: #2B3939;
 }
 .account-info-rank {
   margin-bottom: 8px;
@@ -103,11 +127,38 @@ img {
 .accoun-info-list {
   padding: 0;
   display: flex;
+  align-items: center;
   list-style: none;
 }
 .account-info-list-item {
+  margin-right: 16px;
   font-weight: 500;
   font-size: 15px
   line-height:24px;
   color: #7C8F8F;
+}
+.circle{
+  width: 4px;
+  height: 4px;
+  margin-right: 16px;
+  border: 4px solid #B7C4C4;
+  border-radius: 50%;
+}
+/* Skills list */
+.skills-list {
+  /* margin-right: 40px; */
+  list-style: none;
+  display: flex;
+}
+.skills-list-item {
+  padding: 4px 8px 4px 8px;
+  border-radius: 5px;
+  color: #5CA5A5;
+  background-color: #EFFAFA;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+}
+.skills-list-item:not(:last-child){
+  margin-right: 16px;
 }
