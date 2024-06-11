@@ -17,10 +17,10 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family:"Spartan" "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: #EFFAFA;
     color: #222;
     }
 
@@ -44,4 +44,70 @@ img {
   /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
+    margin-top: 76px;
     }
+
+    /* HEADER SECTION */
+.header{
+  position: relative;
+  height: 156px;
+  overflow: hidden;
+  background-color: #5CA5A5;
+}
+.header-decor-img-1{
+  position: absolute;
+  left: -195px;
+  transform: translateY(-82%);
+}
+.header-decor-img-2{
+  position: absolute;
+  right: -150px;
+  top: -100px;
+}
+
+/* Main content  */
+.info-wrap{
+  height: 152px;
+  padding-left: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+/* Account img */
+.info-wrap-img{
+  width: 88px;
+  height: 88px;
+  margin-right: 24px;
+}
+/* Account info */
+.account-info-div {
+  width: 266px;
+}
+.account-info-name {
+  padding: 0;
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5CA5A5;
+}
+.account-info-rank {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.accoun-info-list {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.account-info-list-item {
+  font-weight: 500;
+  font-size: 15px
+  line-height:24px;
+  color: #7C8F8F;
+}
